@@ -1,0 +1,1 @@
+Öncelikle dediğiniz eksikler ve istdeğiniz şeyler eklendi responsive tasarım ekledim istediğiniz şekilde ve diğer sayfaların linkleri css leri düzenlendi ve js kısmını göstermek adına order kısmı ekledim bilet alınması için js kısmı orada mevcuttur 
