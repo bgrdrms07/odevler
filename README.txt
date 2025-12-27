@@ -1,1 +1,0 @@
-Bu sadece en basic halidir bu proje daha sonrasında değiştirilip tekrardan düzenlenecektir
