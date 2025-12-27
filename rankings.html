@@ -4,110 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UFC Style Site - All Fighters Rankings</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>UFC Ultimate Fighting</h1>
+    <header class="main-header">
+        <nav class="top-nav">
+            <a href="index.html">EVENTS</a>
+            <a href="rankings.html" class="active">RANKINGS</a>
+            <a href="p4p.html">P4P</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="order.html">ORDER</a>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="p4p.html">P4P Rankings</a>
-        <a href="rankings.html">All Fighters Rankings</a>
-    </nav>
-    <section>
-        <h2>All Fighters Rankings by Weight Class</h2>
-        <h3>Heavyweight</h3>
-        <ol>
-            <li>Francis Ngannou</li>
-            <li>Stipe Miocic</li>
-            <li>Derrick Lewis</li>
-            <li>Curtis Blaydes</li>
-            <li>Alexander Volkov</li>
-        </ol>
-        <h3>Light Heavyweight</h3>
-        <ol>
-            <li>Jon Jones</li>
-            <li>Jan Blachowicz</li>
-            <li>Dominick Reyes</li>
-            <li>Thiago Santos</li>
-            <li>Anthony Smith</li>
-        </ol>
-        <h3>Middleweight</h3>
-        <ol>
-            <li>Israel Adesanya</li>
-            <li>Robert Whittaker</li>
-            <li>Paulo Costa</li>
-            <li>Marvin Vettori</li>
-            <li>Darren Till</li>
-        </ol>
-        <h3>Welterweight</h3>
-        <ol>
-            <li>Kamaru Usman</li>
-            <li>Colby Covington</li>
-            <li>Gilbert Burns</li>
-            <li>Leon Edwards</li>
-            <li>Jorge Masvidal</li>
-        </ol>
-        <h3>Lightweight</h3>
-        <ol>
-            <li>Conor McGregor</li>
-            <li>Charles Oliveira</li>
-            <li>Dustin Poirier</li>
-            <li>Justin Gaethje</li>
-            <li>Michael Chandler</li>
-        </ol>
-        <h3>Featherweight</h3>
-        <ol>
-            <li>Alexander Volkanovski</li>
-            <li>Max Holloway</li>
-            <li>Brian Ortega</li>
-            <li>Yair Rodriguez</li>
-            <li>Zabit Magomedsharipov</li>
-        </ol>
-        <h3>Bantamweight</h3>
-        <ol>
-            <li>Aljamain Sterling</li>
-            <li>Petr Yan</li>
-            <li>Cory Sandhagen</li>
-            <li>Raphael Assuncao</li>
-            <li>Marlon Moraes</li>
-        </ol>
-        <h3>Flyweight</h3>
-        <ol>
-            <li>Deiveson Figueiredo</li>
-            <li>Joseph Benavidez</li>
-            <li>Alexandre Pantoja</li>
-            <li>Brandon Moreno</li>
-            <li>Askar Askarov</li>
-        </ol>
-        <h3>Women's Bantamweight</h3>
-        <ol>
-            <li>Julianna Pena</li>
-            <li>Amanda Nunes</li>
-            <li>Holly Holm</li>
-            <li>Aspen Ladd</li>
-            <li>Ketlen Vieira</li>
-        </ol>
-        <h3>Women's Flyweight</h3>
-        <ol>
-            <li>Valentina Shevchenko</li>
-            <li>Joanna Jedrzejczyk</li>
-            <li>Katlyn Chookagian</li>
-            <li>Alexis Davis</li>
-            <li>Roxanne Modafferi</li>
-        </ol>
-        <h3>Women's Strawweight</h3>
-        <ol>
-            <li>Rose Namajunas</li>
-            <li>Zhang Weili</li>
-            <li>Jessica Andrade</li>
-            <li>Carla Esparza</li>
-            <li>Yan Xiaonan</li>
-        </ol>
+
+    <section class="rankings-container">
+        <div class="rankings-header">
+            <h1>All Fighters Rankings by Weight Class</h1>
+            <div class="red-bar"></div>
+        </div>
+
+        <div class="weight-class-grid">
+            
+            <div class="weight-card">
+                <h3>Heavyweight</h3>
+                <ol>
+                    <li>Francis Ngannou</li>
+                    <li>Stipe Miocic</li>
+                    <li>Derrick Lewis</li>
+                    <li>Curtis Blaydes</li>
+                    <li>Alexander Volkov</li>
+                </ol>
+            </div>
+
+            <div class="weight-card">
+                <h3>Light Heavyweight</h3>
+                <ol>
+                    <li>Jon Jones</li>
+                    <li>Jan Blachowicz</li>
+                    <li>Dominick Reyes</li>
+                    <li>Thiago Santos</li>
+                    <li>Anthony Smith</li>
+                </ol>
+            </div>
+
+            <div class="weight-card">
+                <h3>Middleweight</h3>
+                <ol>
+                    <li>Israel Adesanya</li>
+                    <li>Robert Whittaker</li>
+                    <li>Paulo Costa</li>
+                    <li>Marvin Vettori</li>
+                    <li>Darren Till</li>
+                </ol>
+            </div>
+
+            <div class="weight-card">
+                <h3>Welterweight</h3>
+                <ol>
+                    <li>Kamaru Usman</li>
+                    <li>Colby Covington</li>
+                    <li>Gilbert Burns</li>
+                    <li>Leon Edwards</li>
+                    <li>Jorge Masvidal</li>
+                </ol>
+            </div>
+
+            <div class="weight-card">
+                <h3>Lightweight</h3>
+                <ol>
+                    <li>Conor McGregor</li>
+                    <li>Charles Oliveira</li>
+                    <li>Dustin Poirier</li>
+                    <li>Justin Gaethje</li>
+                    <li>Michael Chandler</li>
+                </ol>
+            </div>
+
+            </div>
     </section>
+
     <footer>
-        <p>&copy; 2023 UFC Style Site. All rights reserved.</p>
+        <p>&copy; 2025 UFC Style Site. All rights reserved.</p>
     </footer>
 </body>
 </html>

@@ -4,34 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UFC Style Site - P4P Rankings</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>UFC Ultimate Fighting</h1>
+    <header class="main-header">
+        <nav class="top-nav">
+            <a href="index.html">EVENTS</a>
+            <a href="rankings.html">RANKINGS</a>
+            <a href="p4p.html" class="active">P4P</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="order.html">ORDER</a>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="p4p.html">P4P Rankings</a>
-        <a href="rankings.html">All Fighters Rankings</a>
-    </nav>
-    <section>
-        <h2>Pound for Pound Rankings</h2>
-        <ol>
-            <li>Jon Jones (Light Heavyweight)</li>
-            <li>Conor McGregor (Lightweight)</li>
-            <li>Francis Ngannou (Heavyweight)</li>
-            <li>Israel Adesanya (Middleweight)</li>
-            <li>Valentina Shevchenko (Women's Flyweight)</li>
-            <li>Kamaru Usman (Welterweight)</li>
-            <li>Alexander Volkanovski (Featherweight)</li>
-            <li>Rose Namajunas (Women's Strawweight)</li>
-            <li>Max Holloway (Featherweight)</li>
-            <li>Jan Blachowicz (Light Heavyweight)</li>
-        </ol>
-    </section>
+
+    <main class="p4p-page">
+        <section class="p4p-container">
+            <div class="rankings-header">
+                <h1>Pound for Pound Rankings</h1>
+                <div class="red-bar"></div>
+            </div>
+
+            <ol class="p4p-list">
+                <li>Jon Jones <span class="weight-class">(Light Heavyweight)</span></li>
+                <li>Conor McGregor <span class="weight-class">(Lightweight)</span></li>
+                <li>Francis Ngannou <span class="weight-class">(Heavyweight)</span></li>
+                <li>Israel Adesanya <span class="weight-class">(Middleweight)</span></li>
+                <li>Valentina Shevchenko <span class="weight-class">(Women's Flyweight)</span></li>
+                <li>Kamaru Usman <span class="weight-class">(Welterweight)</span></li>
+                <li>Alexander Volkanovski <span class="weight-class">(Featherweight)</span></li>
+                <li>Rose Namajunas <span class="weight-class">(Women's Strawweight)</span></li>
+                <li>Max Holloway <span class="weight-class">(Featherweight)</span></li>
+                <li>Jan Blachowicz <span class="weight-class">(Light Heavyweight)</span></li>
+            </ol>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2023 UFC Style Site. All rights reserved.</p>
+        <p>&copy; 2025 UFC Style Site. All rights reserved.</p>
     </footer>
 </body>
 </html>

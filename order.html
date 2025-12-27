@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC - Sipariş Ver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="main-header">
+        <nav class="top-nav">
+            <a href="index.html">EVENTS</a>
+            <a href="rankings.html">RANKINGS</a>
+            <a href="p4p.html">P4P</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="order.html">ORDER</a>
+
+            </nav>
+    </header>
+
+    <main class="order-page-container">
+        <section class="order-card">
+            <h1>UFC 323 Bilet Siparişi</h1>
+            <p>Dövüş gecesi heyecanına ortak olmak için bilgilerinizi girin.</p>
+            
+            <form id="ufcSiparisForm">
+                <div class="form-grid">
+                    <input type="text" id="adSoyad" placeholder="Ad Soyad" required>
+                    <input type="email" id="email" placeholder="E-posta" required>
+                    <select id="kategori">
+                        <option value="VIP">VIP - Ring Side</option>
+                        <option value="Standart">Standart</option>
+                        <option value="Tribun">Tribün</option>
+                    </select>
+                    <input type="number" id="adet" placeholder="Bilet Adedi" min="1" required>
+                </div>
+                <button type="submit" class="order-submit-btn">Siparişi Tamamla</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

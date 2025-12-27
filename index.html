@@ -4,34 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UFC Style Site - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>UFC Ultimate Fighting</h1>
+
+    <header class="main-header">
+        <nav class="top-nav">
+            <div class="logo">UFC</div>
+            <div class="nav-links">
+                <a href="index.html">EVENTS</a>
+                <a href="rankings.html">RANKINGS</a>
+                <a href="p4p.html">P4P</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="order.html" class="order-nav-btn">ORDER</a>
+            </div>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-    </nav>
-    <section class="hero">
-        <h1>Experience the Octagon</h1>
-    </section>
-    <section class="fighters">
-        <div class="fighter">
-            <img src="" alt="Fighter 1">
-            <h3>Jon Jones</h3>
-        </div>
-        <div class="fighter">
-            <img src="" alt="Fighter 2">
-            <h3>Conor McGregor</h3>
-        </div>
-        <div class="fighter">
-            <img src="" alt="Fighter 3">
-            <h3>Ronda Rousey</h3>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2023 UFC Style Site. All rights reserved.</p>
+
+    <div class="content-container">
+        <main class="main-content-area">
+            <div class="featured-article">
+                <div class="image-wrapper">
+                    <img src="img/poster.jpg" alt="Featured Article" class="article-image">
+                </div>
+                
+                <div class="article-info">
+                    <p class="article-category">UFC 323: DVALISHVILI VS YAN 2</p>
+                    <h1 class="article-title">FIGHT BY FIGHT PREVIEW</h1>
+                    <p class="article-description">Dive Into Each Of The Matchups On The Final Numbered Event Of 2025</p>
+
+                    <div class="article-actions">
+                        <button class="read-here-btn">READ HERE</button>
+                        <button class="order-btn">ORDER UFC 323</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="sidebar-area">
+            <h2 class="sidebar-title">TOP STORIES</h2>
+            <ul class="sidebar-list">
+                <li>
+                    <span class="rank-num">1</span>
+                    <div class="story-text">
+                        <small>FIGHT COVERAGE</small>
+                        <p>COACH CONVERSATION | UFC 325...</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="rank-num">2</span>
+                    <div class="story-text">
+                        <small>NEWS</small>
+                        <p>FIGHT BY FIGHT PREVIEW | UFC 323...</p>
+                    </div>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 UFC Style Site. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
